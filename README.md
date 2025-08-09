@@ -17,6 +17,7 @@ Foydalanuvchilar quyidagi xizmatlarni bron qilishlari mumkin:
 
 1. **Repository**ni yuklab oling yoki klon qiling:
    ```bash
+<<<<<<< HEAD
    git clone https://github.com/USERNAME/booking_bot.git
    cd booking_bot
 
@@ -40,3 +41,7 @@ Foydalanuvchilar quyidagi xizmatlarni bron qilishlari mumkin:
 
 
 
+=======
+   git clone git@github.com:MuhammadziyoBegaliyev/M_Company.git
+   cd booking_bot
+>>>>>>> df3d577ea9068095ba1187e2231ffb7131571c79
