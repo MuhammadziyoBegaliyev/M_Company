@@ -1,3 +1,0 @@
-TOKEN = "8304368079:AAF_Yu7JJ6ryhlHMSPAJZOzPPZvViIYw8ss"
-ADMINS = [6824528065]  # o'zingizning telegram ID6824528065
-DATABASE = "database/bot.db"
