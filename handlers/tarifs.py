@@ -5,7 +5,7 @@ from database.tarifs import add_tarif, get_tarifs, delete_tarif
 
 router = Router()
 
-ADMIN_IDS = [6824528065]  # o‘zgartir: admin ID
+ADMIN_IDS = [6824528065]  
 
 @router.message(F.text.startswith("/addtarif"))
 async def add_tarif_handler(message: Message):

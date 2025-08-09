@@ -2,7 +2,7 @@ from aiogram import Router, F
 from aiogram.types import CallbackQuery, Message
 from aiogram.fsm.context import FSMContext
 
-from keyboards.inline import kottej_number_kb, add_more_kb  # ⚠️ MUHIM: circular import bo‘lmasin
+from keyboards.inline import kottej_number_kb, add_more_kb  #
 from states.booking import Booking
 from config import ADMINS
 
@@ -12,7 +12,7 @@ router = Router()
 @router.callback_query(F.data == "book_kottej")
 async def choose_kottej(callback: CallbackQuery, state: FSMContext):
     await callback.message.answer_photo(
-        photo="https://picsum.photos/600/400",  # Real rasm URL bo‘lsa, almashtiring
+        photo="https://picsum.photos/600/400",  
         caption="4 kishilik kottejlar. Bizda 8 ta mavjud. Birini tanlang:",
         reply_markup=kottej_number_kb()
     )

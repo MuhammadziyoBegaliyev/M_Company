@@ -52,7 +52,7 @@ dp.include_router(user_router)
 dp.include_router(promotions_router)
 dp.include_router(admin_promotions_router)
 
-# --- Asosiy ishga tushirish ---
+
 async def main():
     # Barcha jadval funksiyalarini chaqirish
     await create_tables()
